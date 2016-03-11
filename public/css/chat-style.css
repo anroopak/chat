@@ -1,0 +1,116 @@
+body{
+	background-color: #e8eaf6;
+	color: #000000;
+}
+
+hr {
+	border-color: rgba(0, 138, 124, 0.7);
+}
+
+a, a:focus, a:hover{
+	color: #004d40;
+}
+
+.page-header{
+	background-color: #00695c;
+	color: #ffffff;
+	margin: 0px;
+	padding: 10px;
+	padding-bottom: 20px;
+	border: none;
+	box-shadow: 0px 2px 5px rgba(0,0,0, 0.5);
+}
+
+.home-body{
+	padding-top: 60px;
+}
+
+.navbar-fixed-bottom hr{
+	margin-bottom: 0px;
+}
+.navbar-fixed-bottom div{
+	padding: 10px;
+}
+
+html, body{
+	overflow-x: hidden;
+	overflow-y: auto; 
+}
+
+html, body, #main-body {
+	height: 100%;
+}
+
+#chat-holder{
+	height: 100%;
+}
+#friends-item-holder{
+	overflow-y: auto;
+	overflow-x: hidden; 
+}
+#chat-profile-friends{
+	background-color: #009688;
+	color: #ffffff;
+	height: 100%;
+}
+
+#chat-profile-friends hr {
+	border-color: rgba(255,255,255, 0.5);
+	margin: 2px;
+}
+
+.material-icons{
+	font-size: 1.2em;
+}
+
+.btn-primary{
+	color: #ffffff;
+	background-color: #00695c;
+	background-image: linear-gradient(to bottom, #009688 0px, #00796b 100%);
+}
+.btn-primary:focus, .btn-primary:hover {
+	background-color: #00695c;
+}
+
+.form-control:focus, .form-control:hover{
+	border-color: #009688;
+	outline: 0px none;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 4px rgba(0, 121, 107, 0.7);
+}
+
+.img-thumbnail{
+	padding: 0px;
+}
+
+.chat-button{
+	font-size: 1.2em;
+}
+.chat-button i{
+	font-size: 0.9em;
+}
+.chat-button a {
+	display: inline-block;
+	padding: 10px;
+}
+.chat-button a:hover{
+	background-color: #26a69a;
+	text-decoration: none;
+}
+
+.friend-item{
+	font-size: 1em;
+	border-bottom: thin solid #b2dfdb;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#user-profile{
+	box-shadow: 0px 5px 5px rgba(0,0,0, 0.5);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#chat-box-body{
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.7);
+}
